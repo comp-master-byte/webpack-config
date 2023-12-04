@@ -7,13 +7,13 @@ import AvatarSvg from "@/assets/avatar.svg";
 const App: React.FC = () => {
     const [counter, setCounter] = useState(0);
 
-    if(__PLATFORM__ === 'deskstop') {
-        return <h1>DESKTOP</h1>
-    }
+    // if(__PLATFORM__ === 'deskstop') {
+    //     return <h1>DESKTOP</h1>
+    // }
 
-    if(__PLATFORM__ === 'mobile') {
-        return <h1>MOBILE</h1>
-    }
+    // if(__PLATFORM__ === 'mobile') {
+    //     return <h1>MOBILE</h1>
+    // }
 
     return (
         <div>
