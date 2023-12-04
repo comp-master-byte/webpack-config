@@ -1,6 +1,11 @@
-button {
+.button {
     background-color: red;
     padding: 20px;
     border:none;
     outline: none;
+}
+
+.value {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
